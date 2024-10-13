@@ -24,10 +24,18 @@ We also use a few other libraries and tools:
 
 ## Getting Started
 
-1. Clone the repository.
-2. Remove the .git folder.
-3. Install client dependencies with `npm install`.
-4. Run the client with `npm run dev`.
-5. Install server dependencies with `npm install`.
-6. Run the server with `npm run dev`.
-6. Start coding!
+1. Clone or [use this repository as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+2. If you cloned the repository, remove the .git folder. If you used the template, clone your own repository.
+3. Install client dependencies and run the client with the following commands:
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+4. In another tab, install server dependencies and run the server with the following commands:
+   ```bash
+   cd server
+   npm install
+   npm run dev
+   ```
+5. Open the project in your favorite editor (there are some settings configured for VSCode) and start coding!
